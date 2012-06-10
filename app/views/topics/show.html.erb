@@ -2,13 +2,14 @@
 
 <p>
   <b>Title:</b>
-  <%= @topic.title %>
+  <%= @topic.title %> - <strong><%= pluralize(@topic.votes.length, "vote") %></strong>
 </p>
 
 <p>
   <b>Description:</b>
-  <%= @topic.description %>
+  <%= @topic.description %> 
 </p>
+
 
 
 <%= link_to 'Edit', edit_topic_path(@topic) %> |
