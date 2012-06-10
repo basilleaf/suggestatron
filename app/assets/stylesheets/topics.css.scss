@@ -1,3 +1,15 @@
 // Place all the styles related to the topics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.topic ul li {
+
+	display:inline;
+
+	.button_to div input, .button_to div, .button_to {
+		width:30px;
+		display:inline;
+		padding:5px;	
+
+	}
+}

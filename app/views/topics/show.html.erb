@@ -1,9 +1,9 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
-  <%= @topic.title %> - <strong><%= pluralize(@topic.votes.length, "vote") %></strong>
-</p>
+<div class = "topic content">
+ 	<h3><%= @topic.title %></h3>
+ 	<ul>
+	  	<li><strong><%= pluralize(@topic.votes.length, "vote") %></strong></li>
+	  	<li><%= button_to '+1', votes_path(topic_id: @topic.id, redir: @topic.id ), method: :post %></li>
+	</ul>	
 
 <p>
   <b>Description:</b>
@@ -14,3 +14,5 @@
 
 <%= link_to 'Edit', edit_topic_path(@topic) %> |
 <%= link_to 'Back', topics_path %>
+</div>
+<p id="notice"><%= notice %></p>
