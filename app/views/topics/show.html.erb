@@ -4,7 +4,6 @@
 	  	<li><strong><%= pluralize(@topic.votes.length, "vote") %></strong></li>
 	  	<li><%= button_to '+1', votes_path(topic_id: @topic.id, redir: @topic.id ), method: :post %></li>
 	</ul>	
-
 <p>
   <b>Description:</b>
   <%= @topic.description %> 
