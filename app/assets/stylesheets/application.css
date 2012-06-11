@@ -16,9 +16,9 @@ table {
 	margin:auto;
 }
 .footer {
+	font-size:40%;
 	padding:0px 3px;
-	background:white;
-	border:1px solid gray;
+	background:black;
 	text-align:center;
 	margin:auto;
 	position: absolute;
