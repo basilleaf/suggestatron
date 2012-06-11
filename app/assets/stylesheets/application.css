@@ -16,19 +16,18 @@ table {
 	margin:auto;
 }
 .footer {
-	font-size:40%;
+	margin:0;
 	padding:0px 3px;
-	background:black;
+	width:99%;
+	font-size:40%;
 	text-align:center;
-	margin:auto;
 	position: absolute;
 	bottom:5px;
-	left:39%;
-	color:white;
+	left:0px;
 }
-.div>a:link {
+.footer>a:link {
   color: #fff;
-  background-color: #660099;
+  background-color: black;
   &:visited {
     color: #fff;
     background-color: #660099; }
@@ -67,6 +66,9 @@ h1, h2, h3 {
 }
 .nav {
 	text-align:center;
+}
+table {
+	margin:20px 0px;
 }
 table tr td {
 	margin:0;
