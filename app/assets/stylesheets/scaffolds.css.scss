@@ -23,11 +23,12 @@ pre {
 
 a {
   color: #000;
+
   &:visited {
     color: #666; }
   &:hover {
     color: #fff;
-    background-color: #000; } }
+    background-color: #3399FF; } }
 
 div {
   &.field, &.actions {
